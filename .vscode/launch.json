@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Sorting_techniques.MergeSort",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Sorting_techniques.InsertionSort",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.ArmstrongNumber",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "CheckPalindrome",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.CheckPalindrome",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "CountDigit",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.CountDigit",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "GCDOrHCF",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.GCDOrHCF",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNos",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.PrimeNos",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllDivisors",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.PrintAllDivisors",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "Basic_Maths_Pracitce.ReverseNumber",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "CheckPalindrome(1)",
+            "request": "launch",
+            "mainClass": "Recursion.CheckPalindrome",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "FactorialOfN",
+            "request": "launch",
+            "mainClass": "Recursion.FactorialOfN",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumber",
+            "request": "launch",
+            "mainClass": "Recursion.FibonacciNumber",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "PrintNTimes",
+            "request": "launch",
+            "mainClass": "Recursion.PrintNTimes",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "PrintOneToN",
+            "request": "launch",
+            "mainClass": "Recursion.PrintOneToN",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAnArray",
+            "request": "launch",
+            "mainClass": "Recursion.ReverseAnArray",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "SumOfN",
+            "request": "launch",
+            "mainClass": "Recursion.SumOfN",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting_techniques.BubbleSort",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Sorting_techniques.SelectionSort",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        }
+    ]
+}
