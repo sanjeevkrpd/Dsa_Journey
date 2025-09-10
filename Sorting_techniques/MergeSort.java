@@ -37,9 +37,9 @@ public class MergeSort {
             R[i] = arr[mid + 1 + i];
         }
 
-        int i = 0, j = 0, k = left;  // k starts from left, not 0
+        int i = 0, j = 0, k = left;  
 
-        // merge temporary arrays back into arr[left..right]
+  
         while (i < n1 && j < n2) {
             if (L[i] <= R[j]) {
                 arr[k] = L[i];
@@ -51,19 +51,8 @@ public class MergeSort {
             k++;
         }
 
-        // copy remaining elements of L[], if any
-        while (i < n1) {
-            arr[k] = L[i];
-            i++;
-            k++;
-        }
 
-        // copy remaining elements of R[], if any
-        while (j < n2) {
-            arr[k] = R[j];
-            j++;
-            k++;
-        }
+
     }
 
     public static void main(String[] args) {

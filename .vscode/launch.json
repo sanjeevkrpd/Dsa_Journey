@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quick_Sort",
+            "request": "launch",
+            "mainClass": "Sorting_techniques.Quick_Sort",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Sorting_techniques.MergeSort",
