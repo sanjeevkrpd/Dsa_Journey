@@ -51,7 +51,15 @@ public class MergeSort {
             k++;
         }
 
-
+            for (; i < n1 || j < n2; k++) {
+                if (i < n1) {
+                    arr[k] = L[i];
+                    i++;
+                } else {
+                    arr[k] = R[j];
+                    j++;
+                }
+            }
 
     }
 

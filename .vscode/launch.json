@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Remove_Duplicate_From_SortedArray",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Remove_Duplicate_From_SortedArray",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Second_Largest_Sorting",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Second_Largest_Sorting",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Largest_Element_In_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Largest_Element_In_Array",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Quick_Sort",
             "request": "launch",
             "mainClass": "Sorting_techniques.Quick_Sort",
