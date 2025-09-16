@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Moves_Zero_To_End",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Moves_Zero_To_End",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Left_Rotate_By_D_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Left_Rotate_By_D_Array",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Left_Rotate_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Left_Rotate_Array",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Remove_Duplicate_From_SortedArray",
             "request": "launch",
             "mainClass": "Problems_on_Array.Easy_Questions.Remove_Duplicate_From_SortedArray",
