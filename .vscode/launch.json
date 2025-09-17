@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Find_Appears_One_or_Two_Times",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Find_Appears_One_or_Two_Times",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Consecutive_Ones",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Maximum_Consecutive_Ones",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Find_Missing_Element_In_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Find_Missing_Element_In_Array",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Find_The_Union",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Find_The_Union",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Moves_Zero_To_End",
             "request": "launch",
             "mainClass": "Problems_on_Array.Easy_Questions.Moves_Zero_To_End",
