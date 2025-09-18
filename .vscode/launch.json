@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Two_Sum",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Two_Sum",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Longest_Subarray_with_Sum",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Longest_Subarray_with_Sum",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Find_Appears_One_or_Two_Times",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Find_Appears_One_or_Two_Times",

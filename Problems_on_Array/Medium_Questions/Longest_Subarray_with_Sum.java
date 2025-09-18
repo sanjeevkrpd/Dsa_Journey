@@ -1,95 +1,71 @@
 package Problems_on_Array.Medium_Questions;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Longest_Subarray_with_Sum {
+ 
+ 
+    public static int findLongestSubArrayNonNeg(int arr[], int target){
 
-    // Sliding-window: only valid if all array elements are non-negative
-    public static int[] findLongestSubArrayNonNeg(int[] arr, int target) {
-        int n = arr.length;
+        int maxLenght = 0;
         int start = 0;
-        int currentSum = 0;
-        int maxLen = 0;
-        int bestStart = -1;
-        int bestEnd = -1;
+        int currSum = 0;
 
-        for (int end = 0; end < n; end++) {
-            currentSum += arr[end];
+        for (int i = 0; i < arr.length; i++) {
 
-            // shrink while sum is too large
-            while (start <= end && currentSum > target) {
-                currentSum -= arr[start];
+            currSum +=arr[i];
+
+            while (start <= i && currSum > target) {
+                currSum -=arr[start];
                 start++;
             }
 
-            // check equality
-            if (currentSum == target) {
-                int len = end - start + 1;
-                if (len > maxLen) {
-                    maxLen = len;
-                    bestStart = start;
-                    bestEnd = end;
-                }
-            }
+            if (currSum == target) {
+                int len = i - start + 1 ;
+                maxLenght = Math.max(maxLenght,len);
+            }   
         }
-        return new int[]{bestStart, bestEnd, maxLen}; // start, end, length
+        return maxLenght;
+
     }
+  
 
-    // Prefix-sum + HashMap: works with negative numbers as well
-    public static int[] findLongestSubArrayAny(int[] arr, int target) {
-        HashMap<Integer, Integer> firstIndex = new HashMap<>();
-        int prefix = 0;
+     public static int findLongestSubArrayAny(int[] arr, int target) {
+        if (arr == null || arr.length == 0) return 0;
+
+        Map<Long, Integer> firstIdx = new HashMap<>(); 
+        long prefix = 0L;
+        firstIdx.put(0L, -1); 
         int maxLen = 0;
-        int bestStart = -1;
-        int bestEnd = -1;
-
-        firstIndex.put(0, -1); // prefix 0 at index -1
 
         for (int i = 0; i < arr.length; i++) {
             prefix += arr[i];
-            int need = prefix - target;
-
-            if (firstIndex.containsKey(need)) {
-                int startIdx = firstIndex.get(need) + 1;
-                int len = i - firstIndex.get(need);
+            long needed = prefix - target;
+            if (firstIdx.containsKey(needed)) {
+                int len = i - firstIdx.get(needed);
                 if (len > maxLen) {
                     maxLen = len;
-                    bestStart = startIdx;
-                    bestEnd = i;
                 }
             }
-
-            // store first occurrence of this prefix
-            if (!firstIndex.containsKey(prefix)) {
-                firstIndex.put(prefix, i);
+            
+            if (!firstIdx.containsKey(prefix)) {
+                firstIdx.put(prefix, i);
             }
         }
-
-        return new int[]{bestStart, bestEnd, maxLen};
+        return maxLen;
     }
 
-    // quick helper to print result
-    private static void printResult(String label, int[] res, int[] arr) {
-        int s = res[0], e = res[1], len = res[2];
-        if (s == -1) {
-            System.out.println(label + " -> no subarray found");
-        } else {
-            System.out.print(label + " -> start: " + s + " end: " + e + " length: " + len + " subarray: [");
-            for (int i = s; i <= e; i++) {
-                System.out.print(arr[i] + (i < e ? ", " : ""));
-            }
-            System.out.println("]");
-        }
-    }
 
     public static void main(String[] args) {
-        int arr[] = {2, 3, 5};
-        int target = 5;
+        int arr[] = {1,-2,3,1,-1,2,-2,3};
 
-        int[] resNonNeg = findLongestSubArrayNonNeg(arr, target);
-        printResult("Sliding window (non-negative)", resNonNeg, arr);
+        // int ans[] = new int[3];
 
-        int[] resAny = findLongestSubArrayAny(arr, target);
-        printResult("Prefix-sum + HashMap (any ints)", resAny, arr);
+        // System.out.println(findLongestSubArrayNonNeg(arr, 15));
+        System.out.println(findLongestSubArrayAny(arr, 3));
+
+
     }
+ 
 }
