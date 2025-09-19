@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kadnes_Algorithm",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Kadnes_Algorithm",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Majority_Element_I",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Majority_Element_I",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Sort_Zero_Ones_Twos",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Sort_Zero_Ones_Twos",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Two_Sum",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Two_Sum",
