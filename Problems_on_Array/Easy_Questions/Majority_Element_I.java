@@ -1,5 +1,4 @@
 package Problems_on_Array.Easy_Questions;
-import java.util.Map.Entry;
 import java.util.HashMap;
 import java.util.Map;
 
