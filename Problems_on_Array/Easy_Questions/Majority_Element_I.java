@@ -25,6 +25,7 @@ public class Majority_Element_I {
           int nums[] = {7, 0, 0, 1, 7, 7, 2, 7, 7};
 
           System.out.println(majorityElement(nums));
+          //sanjeev kumar
         
     }
 }
