@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rearrange_Array_Alt_Pov_Neg",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Rearrange_Array_Alt_Pov_Neg",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
+            "name": "Buy_And_Sell_Stock",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Buy_And_Sell_Stock",
+            "projectName": "My_Dsa_Journey_d18b5077"
+        },
+        {
+            "type": "java",
             "name": "Kadnes_Algorithm",
             "request": "launch",
             "mainClass": "Problems_on_Array.Easy_Questions.Kadnes_Algorithm",
