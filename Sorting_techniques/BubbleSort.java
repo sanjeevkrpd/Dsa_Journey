@@ -18,7 +18,7 @@ public class BubbleSort {
             }
         }
     }
-
+// ----------- learn this technique --------
     public static void main(String[] args) {
         
         int arr[] = {6,3,5,62,64,123,2};
