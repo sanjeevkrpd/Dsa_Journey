@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Set_Matrix_To_Zero",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Set_Matrix_To_Zero",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Longest_Consecutive_Sequence",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Longest_Consecutive_Sequence",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Leaders_In_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Leaders_In_Array",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Next_Permutation",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Next_Permutation",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Rearrange_Array_Alt_Pov_Neg",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Rearrange_Array_Alt_Pov_Neg",
