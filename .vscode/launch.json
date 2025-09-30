@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Spiral_Traversal_Of_Matrix",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Spiral_Traversal_Of_Matrix",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Rotate_Ninety_Degree",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Rotate_Ninety_Degree",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Set_Matrix_To_Zero",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Set_Matrix_To_Zero",
