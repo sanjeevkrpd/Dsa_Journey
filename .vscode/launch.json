@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Count_SubArray_With_Sum",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Count_SubArray_With_Sum",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Pascals_Triangle",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Pascals_Triangle",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Spiral_Traversal_Of_Matrix",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Spiral_Traversal_Of_Matrix",
