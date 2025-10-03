@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tree",
+            "request": "launch",
+            "mainClass": "Binary_Tree.Tree",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Majority_Elements",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Majority_Elements",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Count_SubArray_With_Sum",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Count_SubArray_With_Sum",
