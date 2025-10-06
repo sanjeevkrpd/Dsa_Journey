@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Four_Sum",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Four_Sum",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Three_Sum",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Three_Sum",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Tree",
             "request": "launch",
             "mainClass": "Binary_Tree.Tree",

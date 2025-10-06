@@ -1,6 +1,5 @@
 package Problems_on_Array.Medium_Questions;
 
-import java.util.Arrays;
 
 public class Rotate_Ninety_Degree {
     
