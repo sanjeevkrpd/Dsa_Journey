@@ -2,7 +2,7 @@ package Problems_on_Array.Easy_Questions;
 
     public class Buy_And_Sell_Stock {
 
-    public static int maxProfit(int arr[]){
+    public  int maxProfit(int arr[]){
 
 
         int maxProfit = 0, minPrice = Integer.MAX_VALUE;
@@ -21,7 +21,9 @@ package Problems_on_Array.Easy_Questions;
     public static void main(String[] args) {
         
 
-        int arr[] = {5, 4, 3, 2, 1};
-        System.out.println(maxProfit(arr));
+        int arr[] = {7,1,5,3,6,4};
+        Buy_And_Sell_Stock b = new Buy_And_Sell_Stock();
+
+        System.out.println(b.maxProfit(arr));
     }
 }

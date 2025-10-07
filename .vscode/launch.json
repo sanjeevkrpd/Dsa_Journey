@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Longest_Palindromic_SubString",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Longest_Palindromic_SubString",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Buy_And_Sell_Stock",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Buy_And_Sell_Stock",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Kadnes_Algorithm",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Kadnes_Algorithm",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Majority_Element_I",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Majority_Element_I",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Moves_Zero_To_End",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.Moves_Zero_To_End",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Largest_Zero_Sub_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Largest_Zero_Sub_Array",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Four_Sum",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Four_Sum",

@@ -1,11 +1,8 @@
 package Problems_on_Array.Easy_Questions;
 
 public class Kadnes_Algorithm {
-    public static void main(String[] args) {
-        
-        int nums[] = {2, 3, 5, -2, 7, -4};
-        // int nums[] = {-2, -3, -7, -2, -10, -4};
 
+     public int maxSubArray(int[] nums) {
         int maxSum = nums[0]; 
         int currSum = nums[0];
 
@@ -14,6 +11,14 @@ public class Kadnes_Algorithm {
             maxSum = Math.max(maxSum, currSum);
         }
 
-        System.out.println(maxSum);
+        return maxSum;
+    }
+    public static void main(String[] args) {
+        
+        int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
+       
+        Kadnes_Algorithm k = new Kadnes_Algorithm();
+
+        System.out.println(k.maxSubArray(nums));
     }
 }

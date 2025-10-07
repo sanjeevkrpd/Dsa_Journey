@@ -1,10 +1,10 @@
 package Problems_on_Array.Easy_Questions;
+
 import java.util.HashMap;
 import java.util.Map;
-
 public class Majority_Element_I {
 
-  public static int majorityElement(int arr[]) {
+    public int majorityElement(int arr[]) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int num : arr) {
@@ -18,14 +18,19 @@ public class Majority_Element_I {
             }
         }
 
-        return -1; 
+        return -1;
     }
-    public static void main(String[] args) {
-        
-          int nums[] = {7, 0, 0, 1, 7, 7, 2, 7, 7};
 
-          System.out.println(majorityElement(nums));
-          //sanjeev kumar
-        
+    public static void main(String[] args) {
+
+        int nums[] = { 3,2,3 };
+
+       Majority_Element_I m = new Majority_Element_I();
+
+        int ans = m.majorityElement(nums);
+        System.out.println(ans);
+
+        // sanjeev kumar
+
     }
 }
