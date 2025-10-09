@@ -15,7 +15,7 @@ public class Kadnes_Algorithm {
     }
     public static void main(String[] args) {
         
-        int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
+        int nums[] = {-2,-1,-3,4,-1,2,1,-5,4};
        
         Kadnes_Algorithm k = new Kadnes_Algorithm();
 
