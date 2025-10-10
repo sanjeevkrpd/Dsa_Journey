@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Merge_Two_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.Merge_Two_Sorted_Array",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Merge_Overlapping",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Hard_Questions.Merge_Overlapping",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Count_Xor",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Count_Xor",
