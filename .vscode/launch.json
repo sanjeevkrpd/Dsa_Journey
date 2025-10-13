@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Find_Repeating_And_Missing_No",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Hard_Questions.Find_Repeating_And_Missing_No",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Merge_Two_Sorted_Array",
             "request": "launch",
             "mainClass": "Problems_on_Array.Medium_Questions.Merge_Two_Sorted_Array",
