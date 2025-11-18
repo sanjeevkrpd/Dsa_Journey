@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "L",
+            "request": "launch",
+            "mainClass": "SOLID.L",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "DecreseNumberTriangle",
+            "request": "launch",
+            "mainClass": "Pattern.DecreseNumberTriangle",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Rotate_Matrix",
+            "request": "launch",
+            "mainClass": "HackerRankQuestions.Rotate_Matrix",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Two_Dimensional_OR",
+            "request": "launch",
+            "mainClass": "HackerRankQuestions.Two_Dimensional_OR",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Max_Min_Plant_Tree",
+            "request": "launch",
+            "mainClass": "HackerRankQuestions.Max_Min_Plant_Tree",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "Find_Repeating_And_Missing_No",
             "request": "launch",
             "mainClass": "Problems_on_Array.Hard_Questions.Find_Repeating_And_Missing_No",
