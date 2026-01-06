@@ -6,6 +6,160 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.MinInRotatedSortedArray",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "MaxProductSubArray",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.MaxProductSubArray",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.ReverseString",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Nqueen",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.Nqueen",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.LongestPalindromicSubstring",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubArrayOfSumK",
+            "request": "launch",
+            "mainClass": "RepeatSolutions.LongestSubArrayOfSumK",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "MoveZerosToEnd",
+            "request": "launch",
+            "mainClass": "RepeatSolutions.MoveZerosToEnd",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Code",
+            "request": "launch",
+            "mainClass": "Day_3.Code",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayofSumK",
+            "request": "launch",
+            "mainClass": "Day_3.SubArrayofSumK",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringDistinct",
+            "request": "launch",
+            "mainClass": "Day_3.LongestSubstringDistinct",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Day_3.Palindrome",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAWord",
+            "request": "launch",
+            "mainClass": "Day_3.ReverseAWord",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstring",
+            "request": "launch",
+            "mainClass": "Day_3.LongestSubstring",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "isAnagram",
+            "request": "launch",
+            "mainClass": "Day_3.isAnagram",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestElement",
+            "request": "launch",
+            "mainClass": "Day_2.SecondLargestElement",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubArrayOfSumK",
+            "request": "launch",
+            "mainClass": "Day_2.LongestSubArrayOfSumK",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeroToEnd",
+            "request": "launch",
+            "mainClass": "Day_2.MoveZeroToEnd",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "CountInversion",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Hard_Questions.CountInversion",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Count_Invertion",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Hard_Questions.Count_Invertion",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicates",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Medium_Questions.FindDuplicates",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "Pattern.Butterfly",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "NextPermutation",
+            "request": "launch",
+            "mainClass": "Problems_on_Array.Easy_Questions.NextPermutation",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "L",
             "request": "launch",
             "mainClass": "SOLID.L",
