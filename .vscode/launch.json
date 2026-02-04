@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstNegativeNoInSubArray",
+            "request": "launch",
+            "mainClass": "SlidingWindowWithTwoPointers.FirstNegativeNoInSubArray",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSumSubarryWithK",
+            "request": "launch",
+            "mainClass": "SlidingWindowWithTwoPointers.MaximumSumSubarryWithK",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "PalindromePartitioning",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.PalindromePartitioning",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeating",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.LongestSubstringWithoutRepeating",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "PrintDuplicateStrigAndCount",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.PrintDuplicateStrigAndCount",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "ConvertIntoValidNos",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.ConvertIntoValidNos",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.LongestCommonPrefix",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveConsecutiveCharacter",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.RemoveConsecutiveCharacter",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "FindMinimumOfMerge",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.FindMinimumOfMerge",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "FirstAndLastPosition",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.FirstAndLastPosition",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
+            "name": "FindSumInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "RamdomQuestions.FindSumInRotatedSortedArray",
+            "projectName": "My_Dsa_Journey_1f0dec7a"
+        },
+        {
+            "type": "java",
             "name": "MinInRotatedSortedArray",
             "request": "launch",
             "mainClass": "RamdomQuestions.MinInRotatedSortedArray",
